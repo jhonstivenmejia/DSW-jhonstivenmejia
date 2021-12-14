@@ -1,0 +1,28 @@
+header{
+    background-color: #2E4C6D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+nav{
+    background-color:#396EB0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+section{
+    background-color:#396EB0;
+    grid-column: 1/4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    color: bisque;
+}
+aside{
+    background-color:#DADDFC;
+    grid-column: 4/5;
+}
+footer{
+    background-color: #FC997C;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
