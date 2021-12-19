@@ -62,7 +62,7 @@ main{
     position: relative;
 }
 .menu li ul li ul{
-    display: none;
+    
     right: 140px;
 
 }
