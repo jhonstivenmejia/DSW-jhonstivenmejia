@@ -25,5 +25,44 @@ footer{
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-    
+}
+.menu{
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.menu>li{
+    float: left;
+}
+.menu li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: block;
+}
+.menu li a:hover{
+    background-color: chocolate;
+}
+.menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover >ul{
+    display: block;
+}
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li ul{
+    display: none;
+    right: 140px;
+
 }
